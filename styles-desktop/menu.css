@@ -1,0 +1,133 @@
+/* linea celeste arriba de menu fijo */
+.header{
+    position: fixed;
+    width: 100%;
+    max-width: 1200px;
+    z-index: 1;
+}
+.linea-celeste {
+    background-color: #7EC5BD;
+    height: 30px;
+    width: 100%;
+}
+
+/* menu fijo */
+
+
+.navbar-mobile{
+    display: none;
+}
+
+.navbar li {
+    font-family: 'Nunito sans';
+    font-size: medium;
+    font-weight: 500;
+}
+
+.logo {
+    width: 50%;
+}
+.logo img {
+    padding: 5%;
+    padding-left: 15%;
+    height: 40%;
+
+}
+
+.burger{
+    display: none;
+}
+
+.navbar {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.navbar .li-regular:hover{
+    color:#7EC5BD;
+    transition: ease-in-out 100ms;
+    cursor: pointer;
+
+}
+.navbar li {
+    margin: 2%;
+    text-align: center;
+}
+
+/* navbar dentro del burger */
+
+.navbar-burger li {
+    font-family: 'Nunito sans';
+    font-size: medium;
+    font-weight: 500;
+
+}
+
+.navbar-burger {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-burger{
+    display: none;
+    
+}
+.navbar-burger ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+
+}
+
+
+.navbar-burger.li-regular:hover{
+    color:#7EC5BD;
+    transition: ease-in-out 100ms;
+    cursor: pointer;
+
+}
+.navbar-burger li {
+    margin: 2%;
+    text-align: center;
+}
+
+/* fin */
+
+.contact {
+    padding: 3px;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #7EC5BD;
+    border-radius: 10px;
+    
+}
+.contact {
+     color: white;
+}
+.contact:hover {
+    cursor: pointer;
+}
+.menu-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    background-color: white;
+    
+}
+

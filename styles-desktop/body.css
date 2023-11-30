@@ -1,0 +1,27 @@
+body{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+    
+}
+
+.linea-celeste {
+    z-index: 2;
+}
+
+*{
+    list-style: none;
+    
+    text-decoration: none;
+}
+
+
+* h1, h2, h3 {
+    font-family: 'Nunito sans', sans-serif;
+}
+
+* p {
+    font-family: "Open sans";
+}
+
